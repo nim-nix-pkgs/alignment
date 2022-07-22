@@ -1,0 +1,108 @@
+{
+  "nodes": {
+    "eastasianwidth": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-eastasianwidth-1_1_0": "src-eastasianwidth-1_1_0"
+      },
+      "locked": {
+        "dir": "1_1_0",
+        "lastModified": 1658205952,
+        "narHash": "sha256-pq2JLJMnNaVh5yKUh/o1NQbhy9aTz3i69BXzXD5Bxh4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "eastasianwidth",
+        "rev": "64059557fca70f1ac0a725a0412d328d8565e7c1",
+        "type": "github"
+      },
+      "original": {
+        "dir": "1_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "eastasianwidth",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "eastasianwidth": "eastasianwidth",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-alignment-master": "src-alignment-master"
+      }
+    },
+    "src-alignment-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628728911,
+        "narHash": "sha256-PNm+5llpQqIiG6FDyHEe6HNPtT/81D+aiquV3O56x2o=",
+        "owner": "jiro4989",
+        "repo": "alignment",
+        "rev": "1c30eb39401fd2dc31beb61f056182010bf0b1b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jiro4989",
+        "ref": "refs/heads/master",
+        "repo": "alignment",
+        "type": "github"
+      }
+    },
+    "src-eastasianwidth-1_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559204048,
+        "narHash": "sha256-5eP0bSfgGdhcAEo2samonHcc2IwH/Q7+nzddDrwRi5E=",
+        "owner": "jiro4989",
+        "repo": "eastasianwidth",
+        "rev": "f277a3e2cf7261862900c381d4a8c3a978bb2704",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jiro4989",
+        "ref": "refs/tags/1.1.0",
+        "repo": "eastasianwidth",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
